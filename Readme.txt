@@ -1,0 +1,1 @@
+This is SwiftUI application for showing current currency from Narodna Banka Srbije API. Some more functionality might be added later. 

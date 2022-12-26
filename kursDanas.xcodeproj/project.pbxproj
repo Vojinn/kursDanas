@@ -13,6 +13,7 @@
 		24AAEBE9295497E600D037E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AAEBE8295497E600D037E8 /* Preview Assets.xcassets */; };
 		24AAEBF22954FEFC00D037E8 /* Onboarding_screen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAEBF12954FEFC00D037E8 /* Onboarding_screen_1.swift */; };
 		24AAEBF4295500A000D037E8 /* Assets_file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AAEBF3295500A000D037E8 /* Assets_file.swift */; };
+		24B160DA2959150D002A6188 /* Onboarding_screen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B160D92959150D002A6188 /* Onboarding_screen_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		24AAEBF12954FEFC00D037E8 /* Onboarding_screen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_screen_1.swift; sourceTree = "<group>"; };
 		24AAEBF3295500A000D037E8 /* Assets_file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets_file.swift; sourceTree = "<group>"; };
 		24AAEBF529551BD800D037E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		24B160D92959150D002A6188 /* Onboarding_screen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_screen_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			children = (
 				24AAEBF3295500A000D037E8 /* Assets_file.swift */,
 				24AAEBF12954FEFC00D037E8 /* Onboarding_screen_1.swift */,
+				24B160D92959150D002A6188 /* Onboarding_screen_2.swift */,
 				24AAEBE0295497E500D037E8 /* kursDanas */,
 				24AAEBDF295497E500D037E8 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B160DA2959150D002A6188 /* Onboarding_screen_2.swift in Sources */,
 				24AAEBE4295497E500D037E8 /* ContentView.swift in Sources */,
 				24AAEBE2295497E500D037E8 /* kursDanasApp.swift in Sources */,
 				24AAEBF4295500A000D037E8 /* Assets_file.swift in Sources */,

@@ -1,17 +1,25 @@
+//
+//  Onboarding_screen_2.swift
+//  kursDanas
+//
+//  Created by Dusan Vojinovic on 26.12.22..
+//
+
 import SwiftUI
 
-struct Onboarding_screen_1: View {
-    
-    var onboarding_text = "Izvr\u{0161}ite konverziju iz jedne u drugu valutu";
+struct Onboarding_screen_2: View {
+    var onboarding_text = "Pratite kurseve valuta tokom vremena";
     
     var body: some View {
         ZStack {
             Color(Assets_file.backgroundColor).edgesIgnoringSafeArea(.all)
             VStack{
-                Spacer()
                 
-                Image("onboarding_picture_2")
+                Spacer()
+                Image("onboarding_picture_1")
                     .scaledToFit()
+                    
+                  
                     
                 Text(onboarding_text)
                     .frame(maxWidth: .infinity)
@@ -40,14 +48,14 @@ struct Onboarding_screen_1: View {
                 
                 Spacer().frame(height: 30)
                     
+                    
             }
-            
         }
     }
 }
 
-struct Onboarding_screen_1_Previews: PreviewProvider {
+struct Onboarding_screen_2_Previews: PreviewProvider {
     static var previews: some View {
-        Onboarding_screen_1()
+        Onboarding_screen_2()
     }
 }

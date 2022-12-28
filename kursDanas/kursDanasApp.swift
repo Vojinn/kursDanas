@@ -11,7 +11,7 @@ import SwiftUI
 struct kursDanasApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Onboarding_screen_1()
         }
     }
 }
